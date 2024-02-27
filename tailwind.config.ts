@@ -8,6 +8,11 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      padding: {
+        '2%': '2%',
+        '3%': '3%',
+        '5%': '5%',
+      },
       gridTemplateColumns: {
         '13': 'repeat(13, minmax(0, 1fr))',
       },

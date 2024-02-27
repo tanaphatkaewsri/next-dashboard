@@ -1,0 +1,191 @@
+.title {
+  background-color: #173389;
+  font-size: small;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  padding: 3px;
+  /* border: 4px solid yellow; */
+}
+
+/* .titleLeft,
+.titleRight {
+  display: flex;
+} */
+
+/* .titleLeft {
+  padding-left: 7%;
+}
+
+.titleRight {
+  padding-right: 6%;
+} */
+
+.greenText {
+  color: #10b769;
+  /* border: 4px solid yellow; */
+}
+
+/* .containerMenu {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+} */
+
+.groupOfMenu {
+  display: flex;
+  width: 95%;
+  /* border: 2px solid green; */
+  justify-content: space-between;
+}
+
+.groupOfMenuLeft {
+  display: flex;
+  flex: 1;
+  /* border: 2px solid blue; */
+  justify-content: space-around;
+}
+.groupOfMenuRight {
+  /* background-color: lightblue; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* border: 2px solid orange; */
+  width: 25%;
+}
+
+.eachMenu {
+  /* border: 2px solid green; */
+  /* background-color: lightblue; */
+  display: flex;
+  align-items: center;
+}
+
+.logoMenu {
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.groupIconRss {
+  /* border: 2px solid blue; */
+  color: #173389;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.redDot {
+  margin-right: 8px;
+}
+
+.body {
+  background-color: lightblue;
+  display: flex;
+  font-size: 100px;
+  align-items: center;
+  justify-content: center;
+  height: 700px;
+}
+
+.containerFooter {
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid white; */
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #183389;
+  color: white;
+  /* border: 4px solid yellow; */
+}
+
+.footerTitle {
+  background-color: #163183;
+  font-size: small;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 3px;
+  width: 100%;
+}
+
+.footerContent {
+  margin: 60px 0px 60px 0px;
+  width: 90%;
+}
+.logoFooter {
+  /* border: 2px solid white; */
+  margin: 0px 0px 30px 0px;
+}
+
+.contentFooter {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contentFooterTop {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.contentFooterBottom {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.contentFooterLeft {
+  /* border: 2px solid green; */
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 25px;
+}
+
+.contentFooterMiddle {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  /* border: 2px solid yellow; */
+}
+
+.contentFooterRight {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  /* border: 2px solid yellow; */
+}
+
+.footerIconLink {
+  /* border: 2px solid white; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.groupIcon {
+  display: flex;
+  gap: 20px;
+}
+
+.hrLine {
+  border-top: 1px solid #4a61a4;
+  margin: 40px 0px 50px 0px;
+}
+
+.bgFooter {
+  position: absolute;
+  top: -1;
+  left: 0;
+  width: 100%;
+  height: 527px;
+  /* z-index: -1; */
+}
